@@ -20,4 +20,5 @@ to configure  : `ngrok config add-authtoken <token>`
 run server: `ngrok http 80`
 
 # Courtesy
- [JesusChapman](https://github.com/JesusChapman) used his termux-ngrok repository 🚀
+ 
+[![@JesusChapman](https://img.shields.io/badge/-@JesusChapman-181717?style=flat-square&logo=github)](https://github.com/JesusChapman)
