@@ -7,7 +7,7 @@ apk add wget unzip
 
 cd ..
 
-wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.zip -O ngrok.zip
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3.4.0-linux-arm64.zip -O ngrok.zip
 
 unzip ngrok-stable-linux-arm64.zip
 rm ngrok-stable-linux-arm64.zip
