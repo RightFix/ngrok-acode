@@ -3,9 +3,9 @@ Run official ngrok in acode
 
 # Install
 ```bash
-apk update -y
+apk update && apk upgrade
 apk add git
-git clone https://github.com/RightFix/Ngrok-Acode
+git clone https://github.com/RightFix/ngrok-code
 
 cd ngrok-acode
 bash install.sh
