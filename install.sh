@@ -13,7 +13,7 @@ rm ngrok-stable-linux-arm64.zip
 
 cd ngrok-stable-linux-arm64
 
-mv ngrok /Ngrok-Acode/home/usr/bin
+mv ngrok /usr/bin
 
 echo -e "\e[1;32mNgrok installed sucessfull!"
 echo "Run : ngrok "
