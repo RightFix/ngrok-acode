@@ -5,7 +5,7 @@ Run official ngrok in acode
 ```bash
 apk update -y
 apk add git
-git clone https://github.com/Yisus7u7/termux-ngrok
+git clone https://github.com/RightFix/Ngrok-Acode
 
 cd ngrok-acode
 bash install.sh
