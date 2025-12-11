@@ -1,0 +1,24 @@
+# ngrok-acode
+Run official ngrok in acode  
+
+# Install
+```bash
+apk update -y
+apk add git
+git clone https://github.com/Yisus7u7/termux-ngrok
+
+cd ngrok-acode
+bash install.sh
+```
+# How to use it
+And run : `ngrok`
+#
+check version: `ngrok version`
+#
+to configure  : `ngrok config add-authtoken <token>`
+#
+run server: `ngrok http 80`
+
+# Manifest
+
+ this repository is free code, you can use it without any problem.

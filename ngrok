@@ -1,0 +1,4 @@
+#!/bin/bash
+# termux-chroot -- $PREFIX/share/ngrok/ngrok "$@"
+
+/usr/bin/ngrok "$@"
