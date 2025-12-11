@@ -3,16 +3,14 @@
 rm ../usr/bin/ngrok
 
 apk update && apt upgrade 
-apk add proot wget resolv-conf unzip
+apk add wget unzip
 
 cd ..
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip
 
 unzip ngrok-stable-linux-arm64.zip
 rm ngrok-stable-linux-arm64.zip
-
-cd ngrok-stable-linux-arm64
-
+rm -rf Ngrok-Acode 
 mv ngrok /usr/bin
 
 echo -e "\e[1;32mNgrok installed sucessfull!"
