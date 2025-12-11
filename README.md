@@ -20,5 +20,6 @@ to configure  : `ngrok config add-authtoken <token>`
 run server: `ngrok http 80`
 
 # Manifest
+This repository is free code, you can use it without any problem.
 
- this repository is free code, you can use it without any problem.
+Courtesy to @JesusChapman 
