@@ -1,19 +1,21 @@
 #!/bin/bash
 
+cd 
+
 rm ../usr/bin/ngrok
 
-apk update && apt upgrade 
-apk add wget unzip
+apk update && apk upgrade 
+apk add wget 
 
 cd ..
 
-wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.zip -O ngrok.zip
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz -O ngrok.tgz
 
-unzip ngrok.zip
-rm ngrok.zip
+tar xvzf  ngrok.tgz
+rm ngrok.tgz
 
 cd
-mv ngrok /usr/bin
+mv ngrok ../usr/bin
 
 echo -e "\e[1;32mNgrok installed sucessfull!"
 echo "Run : ngrok "
